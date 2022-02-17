@@ -2,7 +2,7 @@ import { useForm, Controller } from "react-hook-form"
 import Container from '@material-ui/core/Container';
 import Input from "@material-ui/core/Input"
 import {addDoc, collection,getFirestore} from "firebase/firestore"
-import app from "./config/firebase"
+import app from "../config/firebase"
 
 
 
